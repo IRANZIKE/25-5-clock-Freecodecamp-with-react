@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#mainApp {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+  border: 1px double black;
+}
+
+#time-left {
+  border: 2px double indigo;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.timerControls {
+  width: 40%;
+  margin: 2px;
+}
+
+#buttons {
+  border: 1px double black;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#breakSeshGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.incrementButtons {
+  width: 100%;
+}
